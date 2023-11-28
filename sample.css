@@ -1,0 +1,63 @@
+.background{
+    background: deeppink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.outerbox{
+    height: 400px;
+    width: 600px;
+    background: rgb(10, 1, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerbox{
+    background: white;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 300px;
+    width: 500px;
+}
+.numbox{
+    background: rgb(103, 101, 101);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width:300px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.but {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 100px;
+    margin-left: 50px;
+    justify-content: space-between;
+    gap: 75px;
+    margin-top: 75px;
+    
+}
+/* .but:hover #dec:not(:hover){
+    display: none;
+    
+} */
+#dec{
+    background: coral;  
+    transition: all ease-in-out 0s;
+
+}
+#dec:hover{
+    scale: 1.1;
+}
+#res:hover{
+    background: coral;
+}
+#inc:hover{
+    background: coral;
+}
